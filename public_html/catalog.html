@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LoudSound</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body onscroll="myFunction()">
+        <div class="text1">
+            <div id="header">
+                <h1 id="loudsound">LoudSound</h1>
+            </div>
+            <ul id="menu">
+                <li id = "main_menu_item" class="menu_item"><a href="#" onclick="changeStylleMain('main', 'main_menu_item')">Главная</a></li>
+                <li id = "goods_menu_item" class="menu_item active"><a href="#" onclick="changeStylleMain('catalog', 'goods_menu_item')">Каталог товаров</a></li>
+                <li id = "services_menu_item" class="menu_item"><a href="#" onclick="changeStylleMain('servises', 'services_menu_item')">Услуги</a></li>
+                <li id = "jobs_menu_item" class="menu_item"><a href="#" onclick="changeStylleMain('ourworks1', 'jobs_menu_item')">Наши работы</a></li>
+                <li id = "contacts_menu_item" class="menu_item"><a href="#" onclick="changeStylleMain('contacts', 'contacts_menu_item')">Контакты</a></li>
+            </ul>
+
+        </div>	
+        <div id="main" style="display: none;" class='main_content'>	
+            <div class="mainbackground">
+                <div class="text3">
+                    <h2>Немного о нас</h2>
+                    <p><img class="mainimg" src="photo/sound.jpg" alt="автозвук" width="400" height="225" align="right"/>
+                        Любите громкий и насыщенный автозвук? Не представляете поездку в машине без качественных басов? В таком случае вы попали куда нужно. Интернет-магазин LoudSound предлагает вашему внимаю обширный каталог акустических компонентов для автомобилей. В нашем интернет-магазине собраны самые громкие и популярные бренды. Помимо обширного каталога в одном месте, у нашего салона автозвука в спб есть и еще одно весомое преимущество. Мы предлагаем лучшие цены от самих производителей.
+
+                    </p>
+                    <h2>Фирменная акустика по лучшим ценам</h2>
+                    <p>
+                        Основную массу нашей продукции представляют сабвуферы, акустика (ВЧ и НЧ/СЧ динамики), а также различные аксессуары для автомобильных звуковых систем. Весь товар, представленный у нас на сайте, является фирменным и поставляется непосредственно производителем. Покупая у нас, вы сможете сравнить модели от разных производителей по их характеристикам и выбрать подходящий для вас вариант. Если же у вас возникнут какие-то сложности, то вы всегда можете обратиться к нашим специалистам, как в режиме онлайн, так и лично. На каждый продукт действует гарантия с возможностью обслуживания в фирменных сервисных центрах. В каталоге нашего интернет-магазина, вы также найдете комплекты проводов, измерительное оборудование и питание. Доставка нашей продукции осуществляется по всей России.
+                    </p>
+                    <h2>Только квалифицированные специалисты</h2>	
+                    <p><img class="mainimg" src="photo/machina.jpg" alt="автозвук" width="350" height="225" align="right"/>
+                        В LoudSound работают только настоящие профессионалы, которые хорошо разбираются в вопросах автозвука и имеют соответствующую квалификацию. Посетив наш магазин, вы также можете рассчитывать на установку усилителя или любого другого оборудования. Будьте уверены, что мы сможем найти нужный подход к каждой машине. Для тех у кого нет возможности личного посещения нашего салона, на сайте работает онлайн-консультант. Он поможет вам подобрать нужную акустику, подробно расскажет о каждой модели и прочее. В LoudSound вы найдете не только сабвуфера и прочие акустические приборы, но и головные устройства (магнитолы).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="catalog" style="display: block;"  class='main_content'>
+            <div class="mainbackgroundForCatalog">
+                <p><a class="breadcrumbs" href="index.html">Главная</a> - Каталог товаров</p>
+                <h1 id="catalog1">Каталог</h1>
+                <div class="text3">
+                    <div class="catalogleft categories">
+                        <a class="linkcatalog" href="acustika/acustika.html">
+                            <img src="photo/acustika.jpg" width="100" height="100" align="left" alt="автозвук" />
+                            <h4 class="h4catalog">Автоакустика</h4>
+                            Среднечастотники, Твитеры, Мидсабы, Драйвера, Компонентная акустика, Кросоверы.                         
+                        </a>
+                    </div>
+                    <div class="catalogright categories">
+                        <a class="linkcatalog" href="sub.html">
+                            <img src="photo/sub.jpg" width="100" height="100" align="left" alt="автозвук" />
+                            <h4 class="h4catalog">Автомобильные сабвуферы и аксессуары</h4>
+                            Пасивные сабвуферы, Активные сабвуферы, Крепежи, Короба для сабвуферов, Аксессуары для коробов.
+                        </a>
+                    </div>
+                    <div class="catalogright categories">
+                        <a class="linkcatalog categories" href="amplifier.html">
+                             <img src="photo/amplifier.jpg" width="100" height="100" align="left" alt="автозвук" />
+                            <h4 class="h4catalog">Усилители и комплектующие для автоакустики</h4>                          
+                            Усилители, Аксессуары для усилителей, Вольтметры, Шумоподавители и Преобразователи.   
+                        </a>
+                    </div>
+                    <div class="catalogleft categories">
+                        <a class="linkcatalog" href="cabel.html">
+                            <img src="photo/cabel.jpg" width="100" height="100" align="left" alt="автозвук" />
+                            <h4 class="h4catalog">Кабель и комплектующие для автоакустики</h4>
+                            Кабель акустический, Кабель силовой для автоакустики, Межблочный и Y-коннекторы.
+                        </a>
+                    </div>	
+                    <div class="catalogleft categories">
+                        <a class="linkcatalog" href="power.html">
+                            <img src="photo/power.jpg" width="100" height="100" align="left" alt="автозвук" />   
+                            <h4 class="h4catalog">Питание для атозвука</h4>                         
+                        </a>
+                    </div>	
+                    <div class="catalogright categories">
+                        <a class="linkcatalog" href="avtomagnitola.html">
+                            <img src="photo/avtomagnitola.jpg" width="100" height="100" align="left" alt="автозвук" /> 
+                            <h4 class="h4catalog">Автомагнитолы</h4>                           
+                        </a>
+                    </div>   
+                </div>
+            </div>	
+        </div>
+        <div id="servises" style="display: none;" class='main_content'>
+            <div class="mainbackgroundServises">
+                <p><a class="breadcrumbs" href="index.html">Главная</a> - Услуги</p>
+                <div class="text3">
+                    <h2>Рады предоставить Вам следующие услуги</h2>
+                    <div>
+                        <h4>Полная или частичная шумоизоляция материалами премиум линейки</h4>
+                        <p>Двухсторонняя шумоизоляция автомобиля, заключающаяся в проклейке внутренней поверхности и металлической фальшпанели, гарантирует не только снижение уровня шума, а и появление «благородного» звука в процессе захлопывания.</p>
+                        <ol>
+                            <li><b>Седан, хетчбэк</b>: от 10 000 р.</li>
+                            <li><b>Универсал</b>: от 12 000 р.</li>
+                            <li><b>Кроссовер</b>: от 15 000 р.</li>
+                            <li><b>Внедорожник</b>: от 20 000 р.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/shum.jpg" width="400px" height="300" alt="автозвук">
+                            <img src="photo/shum1.jpg" width="400px" height="300" alt="автозвук">
+                        </p>
+                    </div>
+                    <div>
+                        <h4> Пошив салона</h4>
+                        <p>В работе по пошиву салонов мы используем только качественные и долговечнные материалы, которые проверены не только временем, но и прошедшие испытания в лабораторных условиях. В настоящее время для пошива салонов автомобилей мы используем эко кожу коллекций Dakota и Nappa. Данные материалы очень хорошо зарекомендовали себя в эксплуатации при наших погодных условиях, они имеют высокие показатели на истираемость, морозоустойчивость, устойчивость покрытия к многократному изгибу, поэтому мы с уверенностью предоставляем нашим клиентам гарантию на этот материал в течении 5 лет. Для работ по перетяжке потолка и стоек автомобиля наши мастера используют оригинальную Алькантару, а для работ по перетяжке руля или ручки КПП мы используем автомобильную кожу итальянского производства.</p>
+                        <ol>
+                            <li><b>Цена</b>: от 30 000р. в зависимости от материалов и автомобиля</li>
+                        </ol>
+                        <p>
+                            <img src="photo/poshiv.jpg" width="400px" height="300">
+                            <img src="photo/poshiv1.jpg" width="400px" height="300">
+                        <p>
+                    </div>
+                    <div>
+                        <h4> Установка аудиосистем</h4>
+                        <p>Сегодня установка акустики в авто пользуется особой популярностью среди многих автолюбителей. С хорошим автозвуком поездка станет приятней для любого человека. Что же говорить про людей, не представляющих своей жизни без любимой музыки в авто. Для них профессиональная установка автозвука является самым важным этапом тюнинга своего автомобиля.</p>
+                        <ol>
+                            <li><b>Цена</b>: от 15 000р.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/audio.jpg" width="400px" height="300">
+                            <img src="photo/audio1.jpg" width="400px" height="300">
+                        <p>
+                    </div>
+                    <div>
+                        <h4> Расчет и изготовление коробов</h4>
+                        <p>Проектирование, расчет, а также изготовление сабвуферных коробов индивидуально под ваш автомобиль, ваши музыкальные предпочтения и ваш сабвуферный динамик. Профессиональный подход! </p>
+                        <ol>
+                            <li><b>Цена</b>: от 3500р.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/korob.jpg" width="400px" height="300">
+                            <img src="photo/korob1.jpg" width="400px" height="300">
+                        <p>
+                    </div>
+                    <div>
+                        <h4> Изготовление подиумов под акустику</h4>
+                        <p>От выбора динамиков, подготовки посадочного места, и грамотной инсталляции компонентов будет зависеть 60% качества звучания аудиосистемы вашего автомобиля. Мы не будем вдаваться в теорию автозвука, мы просто поможем Вам подобрать динамики на ваш «слух», ориентируясь на жанры любимой вами музыки и под ваш бюджет, не переплачивая лишнего, за ненужные лично Вам параметры.</p>
+                        <ol>
+                            <li><b>Цена</b>: от 10 000р.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/podium.jpg" width="400px" height="300">
+                            <img src="photo/podium1.jpg" width="400px" height="300">
+                        <p>
+                    </div>
+                    <div>
+                        <h4> Изготовление фальшпанелей/стенок/полов</h4>
+                        <p>Πpи пoлнoй инcтaлляции aĸycтичecĸoй cиcтeмы aвтoмaшины чacть aппapaтypы физичecĸи нe пoмeщaeтcя в oгpaничeнный oбъeм caлoнa. Любитeли aĸycтичecĸoгo тюнингa выxoдят из пoлoжeния пpи пoмoщи изгoтoвлeния cпeциaльныx пoдвecныx paмoĸ пoд «тopпeдo», paзмeщaют oбopyдoвaниe в цeнтpaльнoм пoдлoĸoтниĸe, нa пoлĸax бaгaжниĸa. Чтoбы ĸpacивo зaĸpыть мoнтaжныe пoлĸи для aĸycтичecĸoй aппapaтypы, yбepeчь oбopyдoвaниe oт пoвpeждeний, xopoшим peшeниeм бyдeт изгoтoвлeниe дeĸopaтивныx фaльш-пaнeлeй в бaгaжниĸ.</p>
+                        <p>
+                        <ol>
+                            <li><b>Цена</b>: от 5 000р.</li>
+                        </ol>
+                        </p>
+                        <p>
+                            <img src="photo/falshpanel.jpg" width="400px" height="300">
+                            <img src="photo/falshpanel1.jpg" width="400px" height="300">
+                        <p>
+                    </div>
+                    <div>
+                        <h4> Установка доп. оборудования</h4>
+                        <p>Технологический процесс не стоит на месте, поэтому на автомобильном рынке появляются разнообразные новые системы различного дополнительного оборудования для автомобиля, которые несут комфорт при поездке. Все они необходимы для получения лучших функциональных способностей автомобиля.</p>
+                        <ol>
+                            <li><b>Цена</b>: Договорная.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/dopobor.jpg" width="500px" height="300">
+                            <img src="photo/dopobor1.jpg" width="500px" height="300">
+                        <p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ourworks1" style="display: none;" class='main_content'>
+            <div class="mainbackgroundForOurWorks">
+                <p><a class="breadcrumbs" href="index.html">Главная</a> - Наши работы</p>
+                <div class="text3">
+                    <h1>Наши работы</h1>
+                    <div>
+                        <h4>OPEL ASTRA J</h4>
+                        <ol class="ourworks">
+                            <li>Была сделана полная виброизоляция авто материалами Alphard rigit и double rigit </li>
+                            <li>Протянуты по паре плюсовых и минусовых проводов;</li>
+                            <li>Сварена металлическая рама для размещения усилителей и AКБ</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works.jpg" width="350px" height="600">
+                            <img src="photo/works1.jpg" width="700px" height="600">
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Hyundai Solaris</h4>
+                        <ol class="ourworks">
+                            <li>Акустическая подготовка передних дверей</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works2.jpg" width="750px" height="500">
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Volkswagen Polo</h4>
+                        <ol class="ourworks">
+                            <li>Акустическая подготовка дверей</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works4.jpg" width="700px" height="600">
+                        </p>
+                    </div>
+                    <div>
+                        <h4>HYUNDAI CRETA</h4>
+                        <ol class="ourworks">
+                            <li>Полная шумо- и виброизоляция салона</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works3.jpg" width="700px" height="500">
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Skoda Octavia A5</h4>
+                        <ol class="ourworks">
+                            <li>Замена штатного головного устройства на Red Power</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works5.jpg" width="700px" height="400">
+                        </p>
+                    </div>
+                    <div>
+                        <h4>OPEL ASTRA J</h4>
+                        <ol class="ourworks">
+                            <li>Были изготовлены бомбические дверные карты. Вставка и подлокотник были изготовлены вручную, а в качестве отделки была использована итальянская алькантара.</li>
+                        </ol>
+                        <p>
+                            <img src="photo/works6.jpg" width="550px" height="400">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacts" style="display: none;" class='main_content'>
+            <div class="mainbackgroundForContacts">
+                <p><a class="breadcrumbs" href="index.html">Главная</a> - Контакты</p>
+                <div class="text3">
+                    <div>
+                        <h1>Контакты</h1>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="aboutus">Адрес</dt>
+                            <dd>Магазин: Санкт-Петербург, Гражданский пр., дом 170к2</dd>
+                            <dt class="aboutus">Телефон для связи</dt>
+                            <dd>8(921) 123-45-67</dd>
+                            <dt class="aboutus">Email</dt>
+                            <dd>LoudSound@mail.ru</dd>	
+                            <dt class="aboutus">Режим работы</dt>
+                            <dd>Пн-Пт: 10:00-20:00</dd>
+                            <dd>Сб-Вс: 12:00-18:00</dd>
+                        </dl>
+                    </div>	
+                    <div class="map">
+                        <h3>Найти нас можно здесь</h3>
+                        <a href="https://www.google.com/maps/place/60%C2%B001'20.5%22N+30%C2%B023'02.0%22E/@60.0223707,30.3816893,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d60.022368!4d30.3838779" target="_blank"><img src="photo/map.png" alt="Карта нашего местоположения" width="400" height="200"/></a>
+                    </div>
+                    <div>
+                    <button id="buttonforma" onclick="formaAppearance()">Отправить нам сообщение</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contaktform">
+            <button type="button"  id="krest" onclick='formaclose()'><img src="photo/krest.png" width="10" height="10"/></button>
+            <form id="formID" action="" method="POST">
+                <p id="name" class="formswindow">
+                    <input type="text" name="name" value="Ваше имя"  onblur="if (this.value.length === 0)
+                                this.value = 'Ваше имя'" onfocus="if (this.value === 'Ваше имя')
+                                            this.value = ''" />
+                    <label for="name">Имя</label>
+                </p>
+                <p id="email" class="formswindow">
+                <input type="text" name="email" value="email" onblur="if (this.value.length === 0)
+                            this.value = 'email'" onfocus="if (this.value === 'email')
+                                        this.value = ''" />
+                <label for="email">E-mail</label>
+                </p>
+                <p id="msg" class="formswindow">
+                    <textarea name="message" onblur="if (this.value.length === 0)
+                                this.value = 'Текст сообщения'" onfocus="if (this.value === 'Текст сообщения')
+                                            this.value = ''">Текст сообщения</textarea>
+                </p>
+                <p id="send" class="formswindow">
+                    <input type="submit" value="Отправить" onclick="mailTo();" />
+                </p>
+            </form>
+        </div>
+        
+    </body>
+    <footer id="footer">
+        <div>
+            <img class="footerimg" src="photo/footerimg.jpg" width="300px" height="200px" />
+        </div>
+        <div id="footertext">
+            <h2 style="margin-bottom: -5px; font-size: 200%;">LoudSund</h2>
+            <a href=""><img src="photo/vk.png" width="40" height="40"/></a><a href=""><img src="photo/inst.png" width="40" height="40"/></a><a href=""><img src="photo/facebook.png" width="40" height="40"/></a><a href=""><img src="photo/whatsapp.png" width="40" height="40"/></a>
+        </div>
+        <div id="footertext2">
+            <ol id="footermenu">
+                <li><a href="index.html" class="breadcrumbsfooter">Главная</a></li>
+                <li><a href="catalog.html" class="breadcrumbsfooter">Каталог товаров</a></li>
+                <li><a href="Servises.html" class="breadcrumbsfooter">Услуги</a></li>
+                <li><a href="OurWorks.html" class="breadcrumbsfooter">Наши работы</a></li>
+                <li><a href="Contacts.html" class="breadcrumbsfooter">Контакты</a></li>
+            </ol>
+        </div>
+        <div id="footertext1">
+            <p>Created by NikitaProgramMaster with Dmitriy's help.</p>
+        </div>
+    </footer>
+</html>
