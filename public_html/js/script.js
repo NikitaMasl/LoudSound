@@ -34,5 +34,5 @@ function formaclose(){
 }
 
 function changeStylleCatalog(){
-    
+    document.getElementsByClassName('categ').style.display = 'none';
 }
