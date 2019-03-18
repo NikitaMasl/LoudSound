@@ -1,10 +1,15 @@
 {
-  "goodsName": "СЧ динамики URAL AS-DB165B",
-  "properties": [
+  "goodsName" : "Автоакустика",
+  "properties" : [
     {
-    "sizeof": "1.5 дюйма",
-    "seize": "6.5 дюймов"        
-        }
-    ] 
-
+        "name": "СЧ динамики URAL AS-DB165B",
+        "param1": "1.5 дюймов",
+        "param2": "6.5 дюймов",
+        "param3": "300",
+        "param4": "150",
+        "param5": "Феррит",   
+        "price": "5 400 p."    
+                   
+    }
+  ] 
 }
