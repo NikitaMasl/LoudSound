@@ -13,7 +13,7 @@
        "paramname1": "Размер катушки",
        "paramname2": "Размер",
        "paramname3": "Мощность MAX",
-       "Мощность RMS": "150",
+       "paramname4": "Мощность RMS",
        "paramname5": "Материал магнита",   
        "pricename": "Цена" 
     }
