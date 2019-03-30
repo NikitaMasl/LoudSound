@@ -1,7 +1,7 @@
 {
     "goodsName" : "Автоакустика",
     "name": "СЧ динамики URAL AS-DB165B",
-    "parametr":{
+    "parametr":[{
         "param1": "1.5 дюймов",
         "param2": "6.5 дюймов",
         "param3": "300",
@@ -9,12 +9,11 @@
         "param5": "Феррит",   
         "price": "5 400 p."
     },
-    "parametrname":{
+    {
        "paramname1": "Размер катушки",
        "paramname2": "Размер",
        "paramname3": "Мощность MAX",
        "paramname4": "Мощность RMS",
        "paramname5": "Материал магнита",   
        "pricename": "Цена" 
-    }
-}
+    }]
